@@ -4,7 +4,9 @@
   "description": "Curso de JS com TDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint *.js",
+    "prepush" : "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/igorwalacec/js-tdd/issues"
   },
-  "homepage": "https://github.com/igorwalacec/js-tdd#readme"
+  "homepage": "https://github.com/igorwalacec/js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "husky": "^4.2.3"
+  }
 }
