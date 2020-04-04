@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Curso de JS com TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorwalacec/js-tdd.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Igor Walace Cuevas <igor.w.cuevas@gmail.com> (https://github.com/igorwalacec)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorwalacec/js-tdd/issues"
+  },
+  "homepage": "https://github.com/igorwalacec/js-tdd#readme"
+}
