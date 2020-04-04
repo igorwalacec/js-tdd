@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx eslint *.js",
-    "prepush" : "npm run lint"
+    "prepush": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -27,9 +27,7 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "husky": "^4.2.3"
-  },
-  "husky": {
-    "pre-push" : "npm run lint"
+    "husky": "^4.2.3",
+    "prettier": "^2.0.2"
   }
 }
